@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "homePageViewController.setUpShortestPathInfo():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "numberOfAirports">
+            </PersistentString>
+            <PersistentString
+               value = "shortestPathInfo[0][0]">
+            </PersistentString>
+            <PersistentString
+               value = "airportDictionary.count">
+            </PersistentString>
+            <PersistentString
+               value = "airportDictionary[route[0]]">
+            </PersistentString>
+            <PersistentString
+               value = "airportDictionary[route[1]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "resultsPageViewController.addRouteToMap():resultsPageViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentRoute">
+            </PersistentString>
+            <PersistentString
+               value = "currentRoute.endIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "homePageViewController.findRouteAlg(origin:destination:currentRoute:):ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "homePageViewController.viewDidLoad():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Bundle.main.path(forResource: &quot;airlines&quot;, ofType: &quot;csv&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "homePageViewController.collectAirportInformation():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "line[0].components(separatedBy:&quot;,&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "homePageViewController.findRouteAlg(origin:destination:):ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "homePageViewController.prepare(for:sender:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.origin.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "homePageViewController.doesRouteExist(origin:destination:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "shortestPathArray">
+            </PersistentString>
+            <PersistentString
+               value = "airportDictionary">
+            </PersistentString>
+            <PersistentString
+               value = "grabNextOriginRoute(routeInfo: &amp;routeInfo, origin: airport)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "resultsPageViewController.readCSVs():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Bundle.main.path(forResource: &quot;airlines&quot;, ofType: &quot;csv&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "homePageViewController.grabNextOriginRoute(routeInfo:origin:):ViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

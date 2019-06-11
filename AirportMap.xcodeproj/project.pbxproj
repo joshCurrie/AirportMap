@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7309888D22A32B060055BDB5 /* resultsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309888C22A32B060055BDB5 /* resultsPageViewController.swift */; };
 		735F54E7229DE3ED0010DE0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F54E6229DE3ED0010DE0C /* AppDelegate.swift */; };
 		735F54E9229DE3ED0010DE0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F54E8229DE3ED0010DE0C /* ViewController.swift */; };
 		735F54EC229DE3ED0010DE0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735F54EA229DE3ED0010DE0C /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		735F54F1229DE3EF0010DE0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735F54EF229DE3EF0010DE0C /* LaunchScreen.storyboard */; };
 		735F54FC229DE3EF0010DE0C /* AirportMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F54FB229DE3EF0010DE0C /* AirportMapTests.swift */; };
 		735F5507229DE3EF0010DE0C /* AirportMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F5506229DE3EF0010DE0C /* AirportMapUITests.swift */; };
+		73C12A79229F3021001D2B86 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 73C12A78229F3021001D2B86 /* data */; };
+		73C12A7D229F3126001D2B86 /* airlines.csv in Resources */ = {isa = PBXBuildFile; fileRef = 73C12A7A229F3125001D2B86 /* airlines.csv */; };
+		73C12A7E229F3126001D2B86 /* routes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 73C12A7B229F3125001D2B86 /* routes.csv */; };
+		73C12A7F229F3126001D2B86 /* airports.csv in Resources */ = {isa = PBXBuildFile; fileRef = 73C12A7C229F3126001D2B86 /* airports.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7309888C22A32B060055BDB5 /* resultsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsPageViewController.swift; sourceTree = "<group>"; };
 		735F54E3229DE3ED0010DE0C /* AirportMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		735F54E6229DE3ED0010DE0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		735F54E8229DE3ED0010DE0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		735F5502229DE3EF0010DE0C /* AirportMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		735F5506229DE3EF0010DE0C /* AirportMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportMapUITests.swift; sourceTree = "<group>"; };
 		735F5508229DE3EF0010DE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C12A78229F3021001D2B86 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
+		73C12A7A229F3125001D2B86 /* airlines.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = airlines.csv; path = data/airlines.csv; sourceTree = "<group>"; };
+		73C12A7B229F3125001D2B86 /* routes.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = routes.csv; path = data/routes.csv; sourceTree = "<group>"; };
+		73C12A7C229F3126001D2B86 /* airports.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = airports.csv; path = data/airports.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,10 @@
 		735F54DA229DE3ED0010DE0C = {
 			isa = PBXGroup;
 			children = (
+				73C12A7A229F3125001D2B86 /* airlines.csv */,
+				73C12A7C229F3126001D2B86 /* airports.csv */,
+				73C12A7B229F3125001D2B86 /* routes.csv */,
+				73C12A78229F3021001D2B86 /* data */,
 				735F54E5229DE3ED0010DE0C /* AirportMap */,
 				735F54FA229DE3EF0010DE0C /* AirportMapTests */,
 				735F5505229DE3EF0010DE0C /* AirportMapUITests */,
@@ -103,6 +117,7 @@
 				735F54ED229DE3EF0010DE0C /* Assets.xcassets */,
 				735F54EF229DE3EF0010DE0C /* LaunchScreen.storyboard */,
 				735F54F2229DE3EF0010DE0C /* Info.plist */,
+				7309888C22A32B060055BDB5 /* resultsPageViewController.swift */,
 			);
 			path = AirportMap;
 			sourceTree = "<group>";
@@ -229,8 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C12A7D229F3126001D2B86 /* airlines.csv in Resources */,
+				73C12A7E229F3126001D2B86 /* routes.csv in Resources */,
+				73C12A7F229F3126001D2B86 /* airports.csv in Resources */,
 				735F54F1229DE3EF0010DE0C /* LaunchScreen.storyboard in Resources */,
 				735F54EE229DE3EF0010DE0C /* Assets.xcassets in Resources */,
+				73C12A79229F3021001D2B86 /* data in Resources */,
 				735F54EC229DE3ED0010DE0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				735F54E9229DE3ED0010DE0C /* ViewController.swift in Sources */,
+				7309888D22A32B060055BDB5 /* resultsPageViewController.swift in Sources */,
 				735F54E7229DE3ED0010DE0C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
